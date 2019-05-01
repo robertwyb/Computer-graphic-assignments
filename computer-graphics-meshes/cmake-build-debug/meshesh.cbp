@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="meshesh"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libigl\;CMake Files\libigl\external\;CMake Files\libigl\external\glfw\;CMake Files\libigl\external\glfw\CMake\;CMake Files\libigl\external\glfw\CMake\modules\;CMake Files\libigl\external\glfw\src\;CMake Files\libigl\external\glad\;CMake Files\libigl\external\stb\;CMake Files\libigl\cmake\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="normals">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/normals.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../external/eigen"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 normals"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="normals/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/normals.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../external/eigen"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 normals/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/core.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../external/eigen"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 core"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/core.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../external/eigen"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 core/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quad_subdivision">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/quad_subdivision.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../external/eigen"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 quad_subdivision"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quad_subdivision/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/quad_subdivision.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../external/eigen"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 quad_subdivision/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="obj">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/obj.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/stb"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../external/eigen"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 obj"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="obj/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/obj.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/stb"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/../external/eigen"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 obj/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glad/glad.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glad\Makefile VERBOSE=1 glad"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glad\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glad\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glad\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glad/glad.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glad\Makefile VERBOSE=1 glad/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glad\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glad\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glad\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glfw\src\Makefile VERBOSE=1 glfw"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glfw\src\Makefile VERBOSE=1 glfw/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_stb_image">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image/igl_stb_image.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/stb"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\stb_image\Makefile VERBOSE=1 igl_stb_image"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\stb_image\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\stb_image\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\stb_image\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="igl_stb_image/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image/igl_stb_image.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/stb"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\stb_image\Makefile VERBOSE=1 igl_stb_image/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\stb_image\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\stb_image\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\stb_image\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/stb/igl_stb_image.cpp">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/stb/igl_stb_image.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/stb/stb_image.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/stb/stb_image_write.h">
+			<Option target="igl_stb_image"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/normals.cpp">
+			<Option target="normals"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/obj.cpp">
+			<Option target="obj"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/quad_subdivision.cpp">
+			<Option target="quad_subdivision"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/src/catmull_clark.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/src/cube.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/src/per_corner_normals.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/src/per_face_normals.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/src/per_vertex_normals.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/src/sphere.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/src/triangle_area_normal.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/src/vertex_triangle_adjacency.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/src/write_obj.cpp">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\CMake\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\libigl\external\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libigl\external\glad\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/external/stb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libigl\external\stb\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/CXXFeatures.cmake">
+			<Option virtualFolder="CMake Files\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/DownloadProject.CMakeLists.cmake.in">
+			<Option virtualFolder="CMake Files\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/DownloadProject.cmake">
+			<Option virtualFolder="CMake Files\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/LibiglDownloadExternal.cmake">
+			<Option virtualFolder="CMake Files\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/libigl/cmake/libigl.cmake">
+			<Option virtualFolder="CMake Files\libigl\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake/FindLIBIGL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,34 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_c1140\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\nmake.exe" -f CMakeFiles\cmTC_c1140.dir\build.make /nologo -L                  CMakeFiles\cmTC_c1140.dir\build
+Building C object CMakeFiles/cmTC_c1140.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @C:\Users\rober\AppData\Local\Temp\nmDD66.tmp
+CheckIncludeFile.c
+C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe' : return code '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\nmake.exe"' : return code '0x2'
+Stop.
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_99e61\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\nmake.exe" -f CMakeFiles\cmTC_99e61.dir\build.make /nologo -L                  CMakeFiles\cmTC_99e61.dir\build
+Building CXX object CMakeFiles/cmTC_99e61.dir/src.cxx.obj
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @C:\Users\rober\AppData\Local\Temp\nmBB04.tmp
+src.cxx
+C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: '__deprecated__': undeclared identifier
+C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-meshes\cmake-build-debug\CMakeFiles\CMakeTmp\src.cxx(1): error C2448: '__attribute__': function-style initializer appears to be a function definition
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe' : return code '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\nmake.exe"' : return code '0x2'
+Stop.
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

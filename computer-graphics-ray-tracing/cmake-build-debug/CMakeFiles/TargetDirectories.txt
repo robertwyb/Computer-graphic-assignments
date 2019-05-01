@@ -1,0 +1,4 @@
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/raytracing.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/hw2.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/rebuild_cache.dir

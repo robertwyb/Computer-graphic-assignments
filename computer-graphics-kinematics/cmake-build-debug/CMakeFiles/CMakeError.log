@@ -1,0 +1,15 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-kinematics/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_c768a\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\nmake.exe" -f CMakeFiles\cmTC_c768a.dir\build.make /nologo -L                  CMakeFiles\cmTC_c768a.dir\build
+Building C object CMakeFiles/cmTC_c768a.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @C:\Users\rober\AppData\Local\Temp\nmD461.tmp
+CheckIncludeFile.c
+C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-kinematics\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe' : return code '0x2'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\nmake.exe"' : return code '0x2'
+Stop.
+
+

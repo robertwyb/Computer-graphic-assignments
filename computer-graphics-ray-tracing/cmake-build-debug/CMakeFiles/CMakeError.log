@@ -1,0 +1,28 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 failed with the following output:
+Change Dir: C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_d40cc\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\nmake.exe" -f CMakeFiles\cmTC_d40cc.dir\build.make /nologo -L                  CMakeFiles\cmTC_d40cc.dir\build
+Building CXX object CMakeFiles/cmTC_d40cc.dir/src.cxx.obj
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @C:\Users\rober\AppData\Local\Temp\nm674D.tmp
+cl : Command line warning D9002 : ignoring unknown option '-std=c++11'
+src.cxx
+Linking CXX executable cmTC_d40cc.exe
+	"D:\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d40cc.dir --manifests  -- C:\PROGRA~2\MICROS~1.0\VC\bin\link.exe /nologo @CMakeFiles\cmTC_d40cc.dir\objects1.rsp @C:\Users\rober\AppData\Local\Temp\nm67BC.tmp
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X failed with the following output:
+Change Dir: C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/nologo" "cmTC_738a3\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\nmake.exe" -f CMakeFiles\cmTC_738a3.dir\build.make /nologo -L                  CMakeFiles\cmTC_738a3.dir\build
+Building CXX object CMakeFiles/cmTC_738a3.dir/src.cxx.obj
+	C:\PROGRA~2\MICROS~1.0\VC\bin\cl.exe @C:\Users\rober\AppData\Local\Temp\nm69BE.tmp
+cl : Command line warning D9002 : ignoring unknown option '-std=c++0x'
+src.cxx
+Linking CXX executable cmTC_738a3.exe
+	"D:\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_738a3.dir --manifests  -- C:\PROGRA~2\MICROS~1.0\VC\bin\link.exe /nologo @CMakeFiles\cmTC_738a3.dir\objects1.rsp @C:\Users\rober\AppData\Local\Temp\nm6A3C.tmp
+
+Source file was:
+int main() { return 0; }

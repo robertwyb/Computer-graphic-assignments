@@ -1,0 +1,14 @@
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/intersections.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/distances.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/rays.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/core.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/glad/CMakeFiles/glad.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/glad/CMakeFiles/edit_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/glad/CMakeFiles/rebuild_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/glfw/CMakeFiles/edit_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/glfw/CMakeFiles/rebuild_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/glfw/src/CMakeFiles/rebuild_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-bounding-volume-hierarchy/cmake-build-debug/glfw/src/CMakeFiles/edit_cache.dir

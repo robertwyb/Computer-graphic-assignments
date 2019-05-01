@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raycasting"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\shared\;CMake Files\shared\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raycasting">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/cmake-build-debug/raycasting.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/shared/cmake/../eigen"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/shared/cmake/../json"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 raycasting"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raycasting/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/cmake-build-debug/raycasting.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/shared/cmake/../eigen"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/shared/cmake/../json"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 raycasting/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-casting\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/main.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/src/Plane.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/src/Sphere.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/src/Triangle.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/src/TriangleSoup.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/src/first_hit.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/src/viewing_ray.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/src/write_ppm.cpp">
+			<Option target="raycasting"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-casting/shared/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\shared\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

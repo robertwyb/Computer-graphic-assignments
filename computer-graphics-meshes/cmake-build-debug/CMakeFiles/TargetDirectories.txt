@@ -1,0 +1,17 @@
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/CMakeFiles/normals.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/CMakeFiles/core.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/CMakeFiles/quad_subdivision.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/CMakeFiles/obj.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glad/CMakeFiles/glad.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glad/CMakeFiles/edit_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glad/CMakeFiles/rebuild_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/CMakeFiles/edit_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/CMakeFiles/rebuild_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/src/CMakeFiles/rebuild_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/glfw/src/CMakeFiles/edit_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image/CMakeFiles/rebuild_cache.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image/CMakeFiles/igl_stb_image.dir
+C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-meshes/cmake-build-debug/stb_image/CMakeFiles/edit_cache.dir

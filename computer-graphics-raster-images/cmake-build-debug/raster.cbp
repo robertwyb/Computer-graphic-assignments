@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raster"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raster">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/cmake-build-debug/raster.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/json"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/shared/json"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 raster"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raster/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/cmake-build-debug/raster.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/json"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/shared/json"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 raster/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-raster-images\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/main.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/demosaic.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/desaturate.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/hsv_to_rgb.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/hue_shift.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/over.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/reflect.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/rgb_to_gray.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/rgb_to_hsv.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/rgba_to_rgb.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/rotate.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/simulate_bayer_mosaic.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/src/write_ppm.cpp">
+			<Option target="raster"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-raster-images/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

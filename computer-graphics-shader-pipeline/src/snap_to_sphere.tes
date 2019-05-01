@@ -1,0 +1,54 @@
+// Hint: Crib from your model_view_projection.vs
+// Layout:
+//                                         Indicate that we're dealing with
+//                                         triangles in CCW order and using a
+//                                         sane spacing.
+layout(triangles, equal_spacing, ccw) in;
+// Uniforms
+uniform mat4 view;
+uniform mat4 proj;
+uniform float animation_seconds;
+uniform bool is_moon;
+// Inputs:
+//                    array of 3 3D patch corner positions
+in vec4 pos_es_in[];
+// Outputs:
+//                   projected, view, and model transformed 3D position
+out vec4 pos_fs_in;
+//                        view and model transformed 3D position
+out vec4 view_pos_fs_in;
+//                      view and model transformed 3D normal
+out vec3 normal_fs_in;
+//                      3D position _before_ applying model, view or projection
+//                      transformations (e.g., point on unit sphere)
+out vec3 sphere_fs_in;
+// expects: interpolat, model, 
+void main()
+{
+  /////////////////////////////////////////////////////////////////////////////
+  // Replace with your code 
+  mat4 m = model(is_moon, animation_seconds);
+  vec4 norm_interpolate_cord = vec4(normalize(interpolate(gl_TessCoord, pos_es_in[0].xyz, pos_es_in[1].xyz, pos_es_in[2].xyz)), 1.0);
+  
+  if (is_moon) {
+    m = model(is_moon, animation_seconds) * uniform_scale(0.3);
+    float theta = (2.0 * 3.14159 / 4.0) * animation_seconds;
+    vec4 translation = vec4(2 * sin(theta), 0, 2 * cos(theta), 0);
+    pos_fs_in = proj * view * (translation + m * norm_interpolate_cord);
+    view_pos_fs_in = view * (translation + m * norm_interpolate_cord);
+  }
+  else {
+    pos_fs_in = proj * view * m * norm_interpolate_cord;
+    view_pos_fs_in = view * m * norm_interpolate_cord;
+  }
+  sphere_fs_in = norm_interpolate_cord.xyz;
+  normal_fs_in = (inverse(transpose(view * m))*vec4(sphere_fs_in, 1.0)).xyz;
+  
+  
+  gl_Position = pos_fs_in;
+  
+  
+  /////////////////////////////////////////////////////////////////////////////
+}
+
+

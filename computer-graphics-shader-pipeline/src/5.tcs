@@ -1,0 +1,28 @@
+// Hard-code each tessellation level to 5.
+//
+// Layout:
+//                          indicate that we're dealing with 3 vertices
+//                          (triangles) as output
+layout (vertices = 3) out;
+// Inputs:
+//                    3-long array of this triangle's corners' 3D vertex
+//                    positions
+in vec4 pos_cs_in[]; 
+// Outputs:
+//                     3-long array of this triangle's corners' 3D vertex
+//                     positions (should be set to input using gl_InvocationID)
+out vec4 pos_es_in[];
+void main()
+{   
+// https://www.khronos.org/opengl/wiki/Tessellation#Tessellation_primitive_generation
+  gl_TessLevelInner[0] = 5.0;
+  gl_TessLevelInner[1] = 5.0;
+  gl_TessLevelOuter[0] = 5.0;
+  gl_TessLevelOuter[1] = 5.0;
+  gl_TessLevelOuter[2] = 5.0;
+  gl_TessLevelOuter[3] = 5.0;
+  pos_es_in[gl_InvocationID] = pos_cs_in[gl_InvocationID];
+
+
+}
+

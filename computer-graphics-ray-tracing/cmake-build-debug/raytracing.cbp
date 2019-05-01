@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raytracing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracing">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug/raytracing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/eigen"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/json"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 raytracing"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytracing/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug/raytracing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/eigen"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/json"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 raytracing/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw2">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug/hw2.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/eigen"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/json"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 hw2"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw2/fast">
+				<Option output="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug/hw2.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/include"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/eigen"/>
+					<Add directory="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/json"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 hw2/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\rober\OneDrive\csc\CSC418\computer-graphics-ray-tracing\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/main.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/DirectionalLight.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/Plane.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/PointLight.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/Sphere.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/Triangle.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/TriangleSoup.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/blinn_phong_shading.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/first_hit.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/raycolor.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/reflect.cpp">
+			<Option target="raytracing"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/viewing_ray.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/src/write_ppm.cpp">
+			<Option target="hw2"/>
+		</Unit>
+		<Unit filename="C:/Users/rober/OneDrive/csc/CSC418/computer-graphics-ray-tracing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
